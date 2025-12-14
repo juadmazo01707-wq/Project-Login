@@ -1,0 +1,28 @@
+<!-- CREATE A LOGIN -->
+<!DOCTYPE html> <!-- Hey browser, this is modern HTML5 -->
+<html lang="en"> <!-- This page is in English -->
+    <head> <!-- Invisible but very important stuff (metadata, title, css, etc) -->
+        <meta charset="UTF-8"> <!-- Allows accents ñ, emojis, etc... -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes it look good on phones -->
+        <title> Login </title> <!-- Text in the browser tab -->
+        <link rel="stylesheet" href="login.css"> <!-- Load css file to style the page -->
+    </head> <!-- Tag to close the head tag -->
+    <body> <!-- Everything the user sees -->
+        <div class="container"> <!-- Label that centers the entire login card on the page -->
+            <div class="login-card"> <!-- Label containing the login form -->
+                <div class="avatar"> </div> <!-- Placeholder reserved for the user's avatar or logo -->
+                <form action="#" method="post"> <!-- Defines where and how the login data will be sent when the user clicks login -->
+                    <div class="input-box"> <!-- Label that groups the icon and input field for styling purposes -->
+                        <span class="icon" aria-hidden="true"> 📧 </span> <!-- Decorative email icon -->
+                        <input type="email" placeholder="Email ID" required> <!-- Email input with built-in format validation and mandatory field -->
+                    </div>
+                    <div class="input-box">
+                        <span class="icon" aria-hidden="true"> 🔒 </span> <!-- Decorative lock icon -->
+                        <input type="password" placeholder="Password" required> <!-- Password field and required -->
+                    </div>
+                    <button type="submit" class="login-btn"> LOGIN </button> <!-- Button that submit the form when clicked -->
+                </form> <!-- Tag to close the form tag -->
+            </div> <!-- Tag to close the div card tag -->
+        </div> <!-- Tag to close the div container tag -->
+    </body> <!-- Tag to close the body tag -->
+</html> <!-- Tag to close the html tag -->
